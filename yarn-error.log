@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\rlacey\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --save
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\python27;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\vagrant\bin;C:\Windows\System32;C:\Program Files\Cloud Foundry;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\rlacey\AppData\Local\Microsoft\WindowsApps;C:\Users\rlacey\AppData\chromedriver;C:\Program Files\Heroku\bin;C:\Users\rlacey\AppData\Roaming\npm
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "serverMultiPlatform",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "engines": {
+      "node": "6.11.1"
+    },
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+   
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "angular-cookie-law": "^0.2.4",
+       
+      "body-parser": "^1.15.0",
+   
+      "cfenv": "^1.0.3",
+      "childprocess": "^2.0.1",
+      "compression": "^1.7.1",
+      "express": "^4.13.4",
+      "helmet": "^2.1.2",
+      "jwt-simple": "^0.3.1",
+      "lodash": "^3.10.1",
+      "mongodb": "^2.2.12",
+      "q": "^1.4.1",
+      "toobusy-js": "^0.5.1",
+  	"yarn": "^1.3.2"	
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: C:\Users\rlacey\Dropbox\Opus\javascript\angularjs\101\101_b\package.json: Unexpected token } in JSON at position 251
+      at JSON.parse (<anonymous>)
+      at C:\Users\rlacey\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\rlacey\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92:30)
+      at C:\Users\rlacey\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:103:13
+      at <anonymous>

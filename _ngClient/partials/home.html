@@ -1,0 +1,33 @@
+<div class="row">
+<div class="col-md-12" >
+<h1>Home</h1>
+ Available at: <a href="https://github.com/rlacey2/angularbasics101b">https://github.com/rlacey2/angularbasics101b</a>
+<h1>{{name}}</h1>
+
+<br/>
+The above title was set in the $scope.name variable of HomeCtrl, the data below comes from an object on the $scope called homeDate.
+   <br/><br/>
+   <span style="background-color:magenta">
+   name: {{homeData.name}}
+   <br/>
+   description: {{homeData.description}}
+    </span>
+    <br/>
+	 <br/>
+	 Enter a name before, it will be stored in a service, which will provide shared memory between views. Do not use Javascript global variables via window.
+	  <br/>
+	 <br/>
+   					  <label>Name:
+						<input class="form-control" type="text" ng-model="yourName" placeholder="Enter a name here" /> 
+					  </label>
+					  <button  class="btn btn-primary " ng-click="saveName(yourName)" ng-disabled="yourName.length===0" >Save Name To Service</button>
+					  <hr>
+					  <h1>Hello {{yourName}}<span ng-if="yourName.length > 0">, you have {{yourName.length}} character<span ng-if="yourName.length!==1">s</span> in your name</span></h1>			  
+    <br/>                       
+	 <br/>
+	<h3> 
+	 This is a single page application, as you use the menu bar above to move between the views, the relevant view portion is reflected within the single page, i.e. index.html is only loaded once, unless you refresh in the browser.
+	</h3> 
+</div>
+</div>
+ 
