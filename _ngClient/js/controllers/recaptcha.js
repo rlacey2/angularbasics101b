@@ -57,6 +57,7 @@ angularnodeApp.controller('recaptchaCtrl', [  '$scope', 'vcRecaptchaService', '$
 							request.recaptchaResponse = vcRecaptchaService.getResponse(); // attach the request for server authenication
 							
 							// move this to a service for better solution using $q.defer
+							console.log("deprecated?");
 							var deferred = $q.defer();
 							 $http.post('/api/v1/request', request)				
 									.success(function(request) { 

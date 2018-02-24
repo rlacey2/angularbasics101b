@@ -2,8 +2,9 @@
 // if using git, ensure it is in the .gitignore file
 
 var fs = require('fs');
-var platform = require('./routes/server_nodejs/platform.js');
-var runtime = platform.configure();  
+ 
+var runtime = require('./node_server/platform.js').configure();
+ 
 var liveUrl = "??????.eu-gb.mybluemix.net"
 var liveSystem = false;
  
